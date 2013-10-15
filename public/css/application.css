@@ -1,0 +1,45 @@
+.racer-table td {
+  background-color: #FFFFFF;
+  height: 40px;
+  width: 40px;
+}
+
+#player1-strip td {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#player2-strip td {
+  border-bottom: 1px solid gray;
+}
+
+.racer-table{
+  margin-top:100px;
+}
+
+.racer-table td.active {
+  background-image: url("http://hannaparkcarols.org/contact_us/images/car_icon.png");
+  background-size: 50px 50px;
+  background-position-x: -5px;
+
+}
+
+#countdown{
+  display:none;
+  text-align: center;
+}
+
+
+.header {
+  margin: 50px;
+  text-align:center;
+  border-bottom:1px solid #E6E6E6;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  left: 1510px;
+  top: 180px;
+}
